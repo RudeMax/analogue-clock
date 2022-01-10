@@ -1,0 +1,70 @@
+.wrapper {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: url(https://www.nicepng.com/png/full/13-133954_face-template-design-templates-porsche-design-watch-face.png);
+    background-size: cover;
+    border: solid 15px #182095;
+    margin: 100px;
+    box-shadow: 10px 10px 10px #555;
+}
+
+#second-hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 140px;
+    width: 3px;
+    background: #ee2126;
+    border-radius: 1px;
+    box-shadow: 5px 5px 5px #555;
+    transform-origin: 0% 0%;
+}
+
+#minute-hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 120px;
+    width: 5px;
+    background: #000;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px #555;
+    transform-origin: 0% 0%;
+}
+
+#hour-hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 90px;
+    width: 1px;
+    border: solid 3px #000;
+    background: #999;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #555;
+    transform-origin: 0% 0%;
+}
+
+#center {
+    position: absolute;
+    top: 45.5%;
+    left: 45.5%;
+    background: rgb(208,205,205);
+    background: radial-gradient(circle, rgba(208,205,205,1) 4%, rgba(0,0,0,1) 25%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 70%;
+    left: 36%;
+}
+
+
+
